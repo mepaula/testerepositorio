@@ -16,6 +16,6 @@ function exibenome()
 function number()
 {
     let numero = document.getElementById( "num1" ).value;
-    document.getElementById( "resultado" ).innerText = "=" + numero;
+    document.getElementById( "resultado1" ).innerText = "=" + numero;
     document.getElementById( "num2" ).value = "";
 }
