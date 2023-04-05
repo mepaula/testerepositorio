@@ -34,13 +34,13 @@ function dividir()
     let numero4 = document.getElementById( "num4" ).value;
     document.getElementById( "resultado2" ).innerText = parseFloat(numero3) / parseFloat(numero4);
 }
-function subtrai()
+function subtrair()
 {
     let numero5 = document.getElementById( "num5" ).value;
     let numero6 = document.getElementById( "num6" ).value;
     document.getElementById( "resultado3" ).innerText = parseFloat(numero5) - parseFloat(numero6);
 }
-function dividir()
+function multiplicar()
 {
     let numero7 = document.getElementById( "num7" ).value;
     let numero8 = document.getElementById( "num8" ).value;
